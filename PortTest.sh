@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script uses netcat to check if a given port is open or shut on a given host
 echo What is the address?
 read HOST
 echo What is the port?
