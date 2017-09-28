@@ -1,0 +1,91 @@
+# Taps
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+
+# Install ZSH
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+
+# Install Python 3 & Ruby
+brew 'python3'
+brew 'ruby'
+
+# Install GNU core utilities (those that come with macOS are outdated)
+brew 'coreutils'
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew 'findutils'
+
+# Install Bash 4
+brew 'bash'
+
+# Install more recent versions of some macOS tools
+brew 'grep'
+
+# Install Binaries
+brew 'git'
+brew 'hub'
+brew 'tree'
+brew 'mackup'
+brew 'mas'
+brew 'node'
+brew 'trash'
+brew 'wget'
+brew 'vim'
+brew 'ack'
+brew 'archey'
+brew 'awk'
+brew 'geoip'
+brew 'geoipupdate'
+brew 'htop-osx'
+brew 'nmap'
+brew 'bro'
+brew 'youtube-dl'
+
+# Apps
+cask 'aerial'
+cask 'bartender'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'java'
+cask 'onyx'
+cask 'pacifist'
+cask 'slack'
+cask 'spotify'
+cask 'sublime-text'
+cask 'the-unarchiver'
+cask 'transmit'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask 'vlc'
+cask 'xquartz'
+cask 'airfoil'
+cask 'carbon-copy-cloner'
+cask 'coconutbattery'
+cask 'grandperspective'
+cask 'micro-snitch'
+cask 'satellite-eyes'
+cask 'spotmenu'
+cask 'textexpander'
+cask 'wine-stable'
+cask 'yakyak'
+
+
+# Quicklook
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
+
+# Fonts
+cask 'font-inconsolata'
+
+# TODO: Figure out how this works
+# Install Mac App Store apps
+# mas '1Password', id: 443987910
+# mas 'Tweetbot', id: 557168941
