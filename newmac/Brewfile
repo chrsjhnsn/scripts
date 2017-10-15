@@ -63,6 +63,7 @@ cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'xquartz'
+cask 'yakyak'
 cask 'airfoil'
 cask 'carbon-copy-cloner'
 cask 'coconutbattery'
@@ -74,7 +75,6 @@ cask 'textexpander'
 cask 'wine-stable'
 cask 'yakyak'
 
-
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
@@ -85,7 +85,17 @@ cask 'qlstephen'
 # Fonts
 cask 'font-inconsolata'
 
-# TODO: Figure out how this works
 # Install Mac App Store apps
-# mas '1Password', id: 443987910
-# mas 'Tweetbot', id: 557168941
+mas '1Password',		id: 443987910
+mas 'Tweetbot',			id: 557168941
+mas 'Trello',			id: 1278508951
+mas 'Magnet',			id: 441258766
+mas 'Keynote',			id: 409183694
+mas 'Fantastical 2',	id: 975937182
+mas 'Pocket',			id: 568494494
+mas 'Bear',				id: 1091189122
+mas 'Pages',			id: 409201541
+mas 'Reeder',			id: 880001334
+mas 'Pixelmator',		id: 407963104
+mas 'CARROT Weather',	id: 993487541
+mas 'Numbers',			id: 409203825
